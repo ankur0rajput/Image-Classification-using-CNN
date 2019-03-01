@@ -1,0 +1,18 @@
+# Convolutional Neural Network
+
+
+
+1. Installing Theano
+
+ pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
+
+
+
+2. Installing Tensorflow
+
+ Install Tensorflow from the website:  https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html
+
+
+3. Installing Keras
+
+ pip install --upgrade keras
