@@ -8,7 +8,7 @@ Instead of the image, the computer sees an array of pixels. For example, if imag
 
 It includes various steps:
 
-1.Step 1 – Convolution Operation
+Step 1 – Convolution Operation
 
 The three elements that enter into the convolution operations are Input image,Feature detector and Feature map.
 
@@ -24,3 +24,17 @@ You can think of the feature detector as a window consisting of 9 (3×3) cells. 
 -What you will find in this example is that the feature detector's middle-left cell with the number 1 inside it matches the cell that it is standing over inside the input image. That's the only matching cell, and so you write “1” in the next cell in the feature map, and so on and so forth.
 
 -After you have gone through the whole first row, you can then move it over to the next row and go through the same process.
+
+Step 2 – Max Pooling
+
+The purpose of max pooling is enabling the convolutional neural network to detect the object's image when presented with the image in any manner.
+
+This time you'll place a 2×2 box at the top-left corner, and move along the row. For every 4 cells your box stands on, you'll find the maximum numerical value and insert it into the pooled feature map.
+
+Step 3: Flattening
+
+After finishing the previous two steps, we're supposed to have a pooled feature map by now. As the name of this step implies, we are literally going to flatten our pooled feature map into a single column.
+
+Step 4: Full Connection
+
+As written above, the input layer contains the vector of data that was created in the flattening step. The features that we distilled throughout the previous steps are encoded in this vector.
