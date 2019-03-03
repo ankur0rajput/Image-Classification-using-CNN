@@ -11,10 +11,11 @@ It includes various steps:
 1.Step 1 – Convolution Operation
 
 Here are the three elements that enter into the convolution operation:
+-Input image
 
-Input image
-Feature detector
-Feature map
+-Feature detector
+
+-Feature map
 
 How exactly does the Convolution Operation work?
 You can think of the feature detector as a window consisting of 9 (3×3) cells. Here is what you do with it:
