@@ -7,7 +7,7 @@ from keras.layers import MaxPooling2D
 from keras.layers import Flatten
 from keras.layers import Dense
 
-# Initialising the CNN
+# Initialising the Convolutional Neural Network
 classifier = Sequential()
 
 # Step 1 - Convolution
@@ -27,10 +27,10 @@ classifier.add(Flatten())
 classifier.add(Dense(output_dim = 128, activation = 'relu'))
 classifier.add(Dense(output_dim = 1, activation = 'sigmoid'))
 
-# Compiling the CNN
+# Compiling the Convolutional Neural Network
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 
-# Part 2 - Fitting the CNN to the images
+# Part 2 - Fitting the Convolutional Neural Network to the images 
 
 from keras.preprocessing.image import ImageDataGenerator
 
