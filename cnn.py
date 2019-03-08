@@ -1,4 +1,4 @@
-# Part 1 - Building the CNN
+# Part 1 - Building the Convolutional Neural Network
 
 # Importing the Keras libraries and packages
 from keras.models import Sequential
