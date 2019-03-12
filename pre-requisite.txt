@@ -2,17 +2,19 @@
 
 
 
-1. Installing Theano
+1. Install Theano
 
  pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
 
 
-2. Installing Tensorflow
+2. Install Tensorflow
 
  Install Tensorflow from the website:  https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html
 
 
-3. Installing Keras
+3. Install Keras
 
  pip install --upgrade keras
+ 
+4.Install PyTorch
